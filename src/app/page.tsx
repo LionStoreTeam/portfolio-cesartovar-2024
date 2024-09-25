@@ -1,9 +1,10 @@
 import React from 'react'
+import Welcome from './(sections)/Welcome'
 
 export default function Home() {
   return (
-    <div>
-
-    </div>
+    <main>
+      <Welcome />
+    </main>
   )
 }

@@ -7,3 +7,64 @@
     text-wrap: balance;
   }
 }
+
+body {
+  background-image: url("../../public/bg.svg");
+  background-size: cover; /* Hace que la imagen de fondo cubra toda la pantalla */
+  background-position: center; /* Centra la imagen de fondo */
+  background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+  background-attachment: fixed; /* Hace que la imagen de fondo se mantenga fija al hacer scroll */
+  color: #ddd;
+}
+
+.avatar {
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+/* 
+base_bg   = #070F2B
+second_bg = #1B1A55
+titles    = #3C0753
+subtitle  = #720455
+text      = #910A67
+*/
+
+/* 
+--- TAILWIND CSS STYLE STRUCTURE ---
+1° Sizing => Padding or Margin and size pixels
+2° Direction and Positioning => flex or grid & aligment
+3° Styles => BG-Colors - Decorations - Borders - Rounded...
+4° Text => Size - Decoration...
+5° MediaQueries => (
+sm 640px @media (min-width: 640px) { ... }
+md 768px @media (min-width: 768px) { ... }
+lg 1024px @media (min-width: 1024px) { ... }
+xl 1280px @media (min-width: 1280px) { ... }
+2xl 1536px @media (min-width: 1536px) { ... }
+1° Sizing
+2° Direction
+3° Styles
+4° Text
+5° Hover & Animation
+)
+6° Hover & Animation => Hover - Animations - Transitions
+*/

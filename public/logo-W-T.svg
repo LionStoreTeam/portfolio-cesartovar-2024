@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1130 1173.36">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 350px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: #e6e6e6;
+        font-family: Chiller-Regular, Chiller;
+      }
+
+      .cls-2 {
+        font-size: 1000px;
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke: #e6e6e6;
+        stroke-miterlimit: 10;
+        stroke-width: 80px;
+      }
+
+      .cls-3 {
+        font-size: 468.7px;
+      }
+
+      .cls-4 {
+        font-size: 600px;
+      }
+
+      .cls-5 {
+        font-size: 200px;
+      }
+    </style>
+  </defs>
+  <circle class="cls-6" cx="565" cy="565" r="525"/>
+  <text class="cls-2" transform="translate(189.03 868.19)"><tspan x="0" y="0">W</tspan></text>
+  <text class="cls-5" transform="translate(684.53 267.31) rotate(61.07)"><tspan x="0" y="0">•</tspan></text>
+  <text class="cls-3" transform="translate(268.55 797.84) rotate(-35.99) scale(1.07 1)"><tspan x="0" y="0">/</tspan></text>
+  <text class="cls-4" transform="translate(563.16 787.92) rotate(61.07)"><tspan x="0" y="0">•</tspan></text>
+  <text class="cls-1" transform="translate(122.03 416.77) rotate(61.07)"><tspan x="0" y="0">•</tspan></text>
+</svg>
