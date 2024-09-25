@@ -1,3 +1,3 @@
-Cesar Tovar Avilez
-Cuernavaca, Morelos México
-2024
+Cesar Tovar Avilez -
+Cuernavaca, Morelos, México.
+2024.
